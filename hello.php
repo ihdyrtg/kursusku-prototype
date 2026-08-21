@@ -8,6 +8,6 @@
   <h1>Selamat datang di Kursusin</h1>
   <p>Temukan kursus terbaik untukmu.</p>
   <img src="logo.png" alt="Logo Kursusin" class="img-fluid" style="max-height: 40px;">
-  <a href="daftar.php">Daftar Sekarang</a>
+  <a href="praktikum-1.html">Praktikum-1</a>
 </body>
 </html>
