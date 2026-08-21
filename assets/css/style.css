@@ -1,0 +1,198 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #1f2937;
+    background: #ffffff;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+
+/* HEADER */
+
+.header {
+    background: #0f766e;
+    color: white;
+    padding: 30px 0;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.header p {
+    margin-top: 8px;
+}
+
+
+/* NAVIGATION */
+
+.navbar {
+    background: #134e4a;
+}
+
+.navbar .container {
+    display: flex;
+    gap: 25px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 0;
+}
+
+.navbar a:hover {
+    color: #99f6e4;
+}
+
+
+/* HERO */
+
+.hero {
+    padding: 70px 0;
+    background: #f0fdfa;
+}
+
+.hero-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+}
+
+.hero h2 {
+    font-size: 40px;
+}
+
+.hero-image {
+    width: 100%;
+    max-width: 600px;         /* Batas lebar maksimal gambar (sesuaikan kebutuhan) */
+    height: 400px;            /* Mengunci tinggi gambar */
+    object-fit: cover;        /* Memotong gambar secara proporsional agar pas dengan ukuran di atas */
+    object-position: center;  /* Memastikan fokus potongan gambar berada di tengah */
+    border-radius: 8px;
+}
+
+
+/* BUTTON */
+
+.button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 20px;
+
+    background: #0f766e;
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: 8px;
+}
+
+
+/* SECTION */
+
+.section {
+    padding: 60px 0;
+}
+
+.section-light {
+    background: #f8fafc;
+}
+
+.section h2 {
+    font-size: 30px;
+}
+
+
+/* COURSE */
+
+.course-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 20px;
+}
+
+.course-card {
+    padding: 25px;
+
+    border: 1px solid #e5e7eb;
+
+    border-radius: 12px;
+
+    background: white;
+}
+
+
+/* VIDEO */
+
+.video-placeholder {
+    min-height: 300px;
+
+    background: #e2e8f0;
+
+    border-radius: 15px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+}
+
+.video-placeholder span {
+    font-size: 60px;
+}
+
+
+/* FOOTER */
+
+.footer {
+    background: #111827;
+
+    color: white;
+
+    padding: 25px 0;
+
+    text-align: center;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+
+    .hero-content {
+        grid-template-columns: 1fr;
+    }
+
+    .course-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .navbar .container {
+        flex-wrap: wrap;
+    }
+
+}
+
+
