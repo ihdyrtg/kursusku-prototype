@@ -1,0 +1,61 @@
+KursusKu Pertemuan 2-6 - Validation Results
+Generated: 2026-09-22
+
+[1] PHP syntax check
+PASS | bitwise-test.php
+PASS | data.php
+PASS | date-test.php
+PASS | fee-calculator.php
+PASS | fee-tests.php
+PASS | get-demo.php
+PASS | hello.php
+PASS | helpers.php
+PASS | history.php
+PASS | index.php
+PASS | logic-test.php
+PASS | loop-lab.php
+PASS | operator-test.php
+PASS | procedure-test.php
+PASS | process-registration.php
+PASS | process.php
+PASS | register.php
+PASS | registration.php
+PASS | server-time.php
+PASS | string-test.php
+PASS | test-functions.php
+PASS | type-data-test.php
+PASS | week05-test-report.php
+PASS | week06-test-report.php
+
+[2] Helper checks
+PASS | rupiah
+PASS | status penuh
+PASS | sisa kursi
+PASS | tanggal
+PASS | diskon mahasiswa
+PASS | diskon guru
+PASS | diskon umum
+PASS | switch offline
+
+[3] Automated page checks
+PASS | fee-tests: 5/5 PASS badges
+PASS | test-functions: 6/6 PASS badges
+
+[4] Pertemuan 5 structure
+PASS | registration method POST
+PASS | checkbox interests[]
+PASS | hidden source week-05
+PASS | responsive CSS
+
+[5] Pertemuan 6 structure
+PASS | branching discount integrated
+PASS | switch learning mode integrated
+PASS | history foreach
+PASS | while loop
+PASS | do-while loop
+
+[6] Runtime POST checks
+PASS | mahasiswa Web Dasar 1 paket = Rp 240.000
+PASS | guru PHP Dasar 1 paket = Rp 340.000
+PASS | umum Laravel Dasar 1 paket = Rp 500.000
+PASS | minat kosong tanpa warning
